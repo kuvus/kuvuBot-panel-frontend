@@ -1,0 +1,47 @@
+.setting-box {
+    border-radius: 5px;
+    width: 100%;
+    background: #1e2543;
+
+    margin: 0.5em 0;
+
+    .setting-header {
+        font-weight: 300;
+        font-size: 20pt;
+        margin: 0;
+    }
+
+    .setting-content {
+        font-weight: 100;
+        margin: 0 2em;
+        padding: 1em 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .setting-val {
+        font-size: 17pt;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .edit-button {
+        color: #fff;
+        margin-left: 0.8em;
+    }
+
+    .settings-config {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+.info-box {
+    border-radius: 5px;
+    width: 100%;
+    background: #1e2543;
+
+    margin: 0.5em 0;
+
+    .info-header {
+        font-weight: 300;
+        font-size: 20pt;
+        margin: 0;
+    }
+
+    .info-content {
+        font-weight: 100;
+        margin: 0 2em;
+        padding: 1em 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .info-val {
+        font-size: 17pt;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}

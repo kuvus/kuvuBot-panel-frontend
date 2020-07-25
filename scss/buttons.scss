@@ -1,0 +1,22 @@
+.button {
+    background: rgb(38, 143, 255);
+    background: linear-gradient(270deg, rgba(38, 143, 255, 1) 0%, rgba(0, 123, 255, 1) 100%);
+
+    color: #fff;
+
+    padding: 0.5em 1em;
+    border-radius: 5em;
+
+    text-decoration: none;
+
+    font-size: 16pt;
+
+    &:hover {
+        background-image: linear-gradient(270deg, white 0%, white 100%);
+        color: #272222;
+        transition: color 0.3s ease;
+    }
+
+    transition: background-image 0.3s ease;
+    transition: color 0.1s ease;
+}

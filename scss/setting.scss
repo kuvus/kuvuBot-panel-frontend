@@ -1,0 +1,74 @@
+.setting-edit-box {
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 5px;
+    width: 100%;
+    background: #1e2543;
+
+    padding: 1.3em;
+
+    .setting-edit-current {
+        margin-bottom: 0.3em;
+        font-size: 17pt;
+        font-weight: 300;
+    }
+
+    .setting-edit-input {
+        background: #2c355a;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        color: #fff;
+        font-weight: 300;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .save-button {
+        background: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 0;
+        margin-top: 0.5em;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            background: #046ddd;
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+        }
+    }
+
+    .cancel-button {
+        background: #fff;
+        color: #000;
+        border: none;
+        border-radius: 5px;
+        padding: 12px 0;
+        margin-top: 0.5em;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            background: #eee;
+            transition: 0.2s ease-in-out;
+            cursor: pointer;
+        }
+    }
+
+    .setting-edit-buttons {
+        display: flex;
+        flex-direction: row;
+
+        column-gap: 7px;
+
+        button {
+            width: 100%;
+        }
+    }
+}

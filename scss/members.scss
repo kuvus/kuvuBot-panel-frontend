@@ -1,0 +1,71 @@
+.user-box {
+    border-radius: 5px;
+    width: 100%;
+    background: #1e2543;
+
+    margin: 0.5em 0;
+
+    .user-header {
+        font-weight: 300;
+        font-size: 20pt;
+        margin: 0;
+    }
+
+    .user-content {
+        font-weight: 100;
+        margin: 0 2em;
+        padding: 0.6em 0;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .user-val {
+        font-size: 17pt;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .edit-button {
+        color: #fff;
+        margin-left: 0.5em;
+    }
+
+    .user-avatar {
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .user-general {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .user-name {
+        margin-left: 1em;
+        font-size: 16pt;
+    }
+
+    .user-data {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .user-data-col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+}
+
+.users {
+    display: flex;
+    flex-direction: column;
+}
